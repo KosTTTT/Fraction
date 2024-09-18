@@ -1,4 +1,4 @@
-﻿project(Fraction C CXX)
+﻿project(Fraction CXX)
 set(CMAKE_CXX_STANDARD 17)#the minimum requred version of C++
 set(sources
 Fraction.cpp

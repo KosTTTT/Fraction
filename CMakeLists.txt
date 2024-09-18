@@ -18,7 +18,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${build_dir_postfix1}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${build_dir_postfix1}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${build_dir_postfix1}/lib)
 
-#include_directories(./)
 add_subdirectory(Fraction)
 
 add_executable (t_Fraction
