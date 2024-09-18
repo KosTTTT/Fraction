@@ -46,11 +46,11 @@ public:
         {
             return *this = Fraction(v);
         }
-        inline operator bool() const  noexcept
+        explicit inline operator bool() const  noexcept
         {
             return m_num;
         }
-        inline operator float() const noexcept
+        explicit inline operator float() const noexcept
         {
             return static_cast<float>(m_num)/m_den;
         }
