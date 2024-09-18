@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <limits>
 #include <sstream>
-#include "Fraction.hpp"
+#include "Fraction/Fraction.hpp"
 
 static double const told = 1.0e-15;
 static float const tolf = 1.0e-7f;
